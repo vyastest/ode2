@@ -6,8 +6,8 @@ from textblob import TextBlob
 import  os
 
 # Load data from CSV file
-filepath = r"C:\Users\Malleswari\oda_spa\web_data.csv"
-data = pd.read_csv(filepath)
+#filepath = r"C:\Users\Malleswari\oda_spa\web_data.csv"
+data = pd.read_csv("web_data.csv)
 
 # Perform sentiment analysis using TextBlob
 def get_sentiment(text):
